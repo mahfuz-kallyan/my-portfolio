@@ -1,0 +1,68 @@
+[
+	{
+		"title": "Food Sharing App",
+		"image": "https://i.ibb.co/fdgMBr3b/front-view-delicious-soup-served-with-lemon-green-white-bowl-wooden-tray-vegetables-foods-oil-bottle.jpg",
+		"overview": "A full-stack food sharing platform where users can donate and request leftover food. Built with modern web technologies for seamless and secure interaction.",
+		"technologies": [
+			"React",
+			"Tailwind CSS",
+			"Node.js",
+			"Express.js",
+			"MongoDB",
+			"Firebase",
+			"Vercel"
+		],
+		"notes": [
+			"Users can post, request, and manage food donations.",
+			"Authentication and role-based access using Firebase.",
+			"Backend secured with JWT and data stored in MongoDB."
+		],
+		"buttons": [
+			{
+				"label": "Live Site",
+				"url": "https://food-share-f15a3.web.app/"
+			},
+			{
+				"label": "Client Code",
+				"url": "https://github.com/mahfuz-kallyan/food-share-client-site"
+			},
+			{
+				"label": "Server Code",
+				"url": "https://github.com/mahfuz-kallyan/food-share-server"
+			}
+		]
+	},
+	{
+		"title": "Movie Portal",
+		"image": "https://i.ibb.co/j9XzZwds/n1.jpg",
+		"overview": "A responsive movie portal allowing users to browse, favorite, and review movies with authentication and admin dashboard.",
+		"technologies": [
+			"React",
+			"Tailwind CSS",
+			"Node.js",
+			"Express.js",
+			"MongoDB",
+			"Firebase",
+			"Vercel"
+		],
+		"notes": [
+			"Includes login/signup with Firebase authentication.",
+			"Admins can add, edit, and delete movies.",
+			"Favorites and movie reviews stored in MongoDB with secure API."
+		],
+		"buttons": [
+			{
+				"label": "Live Site",
+				"url": "https://movie-portal-2ac10.web.app/"
+			},
+			{
+				"label": "Client Code",
+				"url": "https://github.com/mahfuz-kallyan/movie-portal-client-site"
+			},
+			{
+				"label": "Server Code",
+				"url": "https://github.com/mahfuz-kallyan/movie-portal-server-site"
+			}
+		]
+	}
+]

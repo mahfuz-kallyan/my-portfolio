@@ -3,7 +3,7 @@ const Banner = () => {
 	return (
 		<div
 			id="banner"
-			className="mx-auto w-full px-8 lg:pb[80px] pb-5 lg:pt-[150px] pt-[120px] min-h-screen flex lg:flex-row flex-col justify-between items-center gap-8"
+			className="mx-auto w-full px-6 lg:pb[80px] pb-5 lg:pt-[150px] pt-[120px] min-h-screen flex lg:flex-row flex-col justify-between items-center gap-8"
 		>
 			<div className="lg:w-3/5 w-full flex flex-col justify-center items-center gap-8">
 				<h1 className="text-red-600 md:text-3xl  text-xl font-semibold">
