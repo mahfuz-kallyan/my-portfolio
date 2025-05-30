@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { GoProjectSymlink } from "react-icons/go";
-import { Button } from "react-scroll";
+
 
 const Projects = () => {
 	const [projectData, setProjectData] = useState([]);
@@ -43,7 +43,7 @@ const Projects = () => {
 										(tech, index) => (
 											<button
 												key={index}
-												className="btn btn-sm border-red-500"
+												className="btn btn-sm border-red-500 hover:bg-gray-700"
 											>
 												{tech}
 											</button>
