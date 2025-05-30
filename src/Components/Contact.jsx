@@ -9,8 +9,8 @@ const Contact = () => {
 				<MdContactPhone className="text-red-600 text-4xl"></MdContactPhone>
 				<h2 className="text-4xl font-semibold">Contact Me</h2>
 			</div>
-			<div className="flex flex-col lg:flex-row justify-center items-center">
-				<div className="flex flex-col justify-center items-start gap-4 w-1/2">
+			<div className="flex flex-col lg:flex-row justify-around items-center gap-8">
+				<div className="flex flex-col justify-center items-start gap-4">
 					<div className="flex justify-center items-center gap-2">
 						<IoMdMail className="text-red-500 text-2xl"></IoMdMail>
 						<h5 className="text-xl font-semibold">
@@ -34,7 +34,7 @@ const Contact = () => {
 					</div>
 				</div>
 				<div>
-					<fieldset className=" w-full space-y-3">
+					<fieldset className=" w-full space-y-3 ">
 						<label className="label">Email</label>
 						<input
 							type="email"
