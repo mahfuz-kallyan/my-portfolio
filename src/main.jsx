@@ -6,6 +6,7 @@ import Home from './Home/Home';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Skills from './Components/Skills';
+import { Toaster } from 'react-hot-toast';
 
 const router = createBrowserRouter([
 	{
@@ -31,5 +32,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
 	<StrictMode>
 		<RouterProvider router={router} />
+		<Toaster position="top-center" reverseOrder={false} />
 	</StrictMode>
 );
