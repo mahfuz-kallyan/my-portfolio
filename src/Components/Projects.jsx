@@ -13,7 +13,7 @@ const Projects = () => {
 	return (
 		<div className="mx-auto max-w-[1920px] py-6 px-6 lg:px-14">
 			<div className="flex justify-center items-center gap-2">
-				<GoProjectSymlink className="text-4xl text-red-600"></GoProjectSymlink>
+				<GoProjectSymlink className="text-4xl text-red-500"></GoProjectSymlink>
 				<h2 className="text-white text-4xl font-semibold">
 					My Projects
 				</h2>

@@ -6,7 +6,7 @@ const Contact = () => {
 	return (
 		<div className="mx-auto max-w-[1920px] lg:py-12 lg:px-16 p-6">
 			<div className="flex justify-center items-center gap-2 mb-14">
-				<MdContactPhone className="text-red-600 text-4xl"></MdContactPhone>
+				<MdContactPhone className="text-red-500 text-4xl"></MdContactPhone>
 				<h2 className="text-4xl font-semibold">Contact Me</h2>
 			</div>
 			<div className="flex flex-col lg:flex-row justify-around items-center gap-8">

@@ -4,7 +4,7 @@ const Skills = () => {
 	return (
 		<div className="mx-auto max-w-[1920px] my-14  px-2 lg:px-14 py-6">
 			<div className="flex justify-center items-center gap-2">
-				<GiSkills className="text-red-600 text-4xl" />
+				<GiSkills className="text-red-500 text-4xl" />
 				<h2 className="text-white text-4xl font-semibold">My Skills</h2>
 			</div>
 

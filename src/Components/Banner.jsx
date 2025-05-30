@@ -6,7 +6,7 @@ const Banner = () => {
 			className="mx-auto w-full px-6 lg:pb[80px] pb-5 lg:pt-[100px] pt-[50px] min-h-screen flex lg:flex-row flex-col justify-between items-center gap-8"
 		>
 			<div className="lg:w-3/5 w-full flex flex-col justify-center items-center gap-8">
-				<h1 className="text-red-600 md:text-3xl  text-xl font-semibold">
+				<h1 className="text-red-500 md:text-3xl  text-xl font-semibold">
 					I'm Mahfuzur Rahman
 				</h1>
 				<h1 className="text-white lg:text-5xl font-semibold">
